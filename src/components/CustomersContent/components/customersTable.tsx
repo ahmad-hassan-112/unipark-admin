@@ -79,7 +79,7 @@ const CustomersTable: React.FC<CustomersTableProps> = ({ customersData, isPendin
                 <Popover>
                   <PopoverTrigger asChild>
                     <div>
-                      <Image src="/icons/dots-vertical.svg" alt="menu" width={20} height={20} className="cursor-pointer" />
+                      <Image src="/icons/dots-vertical.svg" alt="menu" width={20} height={20} className="cursor-pointer max-w-max" />
                     </div>
                   </PopoverTrigger>
 

@@ -43,7 +43,7 @@ const Sidebar = () => {
   const isSettingActive = currentPath === '/settings';
 
   return (
-    <SidebarWrapper className="flex min-h-screen relative bg-white overflow-hidden">
+    <SidebarWrapper className="flex min-h-screen relative bg-white">
       <div className="flex flex-col w-[72px] items-center justify-between p-4 relative self-stretch sidebar-main">
         <div className="inline-flex flex-col items-center gap-8 relative">
           <Image alt="Campus" src="/images/unipark.jpg" loading="lazy" width={40} height={40} />

@@ -64,7 +64,7 @@ const ApplicationTable: React.FC<ApplicationListingTableProps> = ({ applicationD
                 <Popover>
                   <PopoverTrigger asChild>
                     <div>
-                      <Image src="/icons/dots-vertical.svg" alt="menu" width={20} height={20} className="cursor-pointer" />
+                      <Image src="/icons/dots-vertical.svg" alt="menu" width={20} height={20} className="cursor-pointer max-w-auto" />
                     </div>
                   </PopoverTrigger>
 

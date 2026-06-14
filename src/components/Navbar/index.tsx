@@ -60,7 +60,6 @@ const Navbar = () => {
         </div>
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-8">
-            <Image src="/icons/notification.svg" alt="notification" loading="lazy" width={24} height={24} className="cursor-pointer" />
 
             <Popover open={openPopover} onOpenChange={() => setOpenPopover(!openPopover)}>
               <PopoverTrigger asChild>

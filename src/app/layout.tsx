@@ -38,7 +38,7 @@ export default function RootLayout ({
                   {!AUTH_ROUTES.some(route => pathName.includes(route)) ? (
                     <div className="flex">
                       <Sidebar />
-                      <div className="w-full">
+                      <div className="w-full overflow-hidden">
                         <Navbar />
                         <div className="p-8 pb-6 h-[calc(100vh-80px)] overflow-y-auto">{children}</div>
                       </div>
