@@ -1,0 +1,79 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Inter Display';
+  src: url('/fonts/InterDisplay-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter Display';
+  src: url('/fonts/InterDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter Display';
+  src: url('/fonts/InterDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter Display';
+  src: url('/fonts/InterDisplay-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter Display';
+  src: url('/fonts/InterDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Inter Display', sans-serif;
+}
+
+:root {
+  --color-success-100: #e7f9e7;
+  --color-success-500: #22c55e;
+  --color-success-600: #16a34a;
+  --color-error: #df1c41;
+  --color-bg-light: #dee8ff;
+  --color-blue: #4444f0;
+  --neutral50: #f9fafb;
+  --neutral100: #e2e8f0;
+  --neutral200: #cbd5e1;
+  --neutral300: #94a3b8;
+  --neutral350: #b3bfd0;
+  --neutral250: #eceff4;
+  --neutral400: #77869d;
+  --neutral450: #64748b;
+  --neutral550: #586a83;
+  --neutral500_2: #475569;
+  --neutral650: #334155;
+  --neutral700: #1e293b;
+  --neutral800: #1f2937;
+  --neutral850: #0f172a;
+  --primary50: #edf2ff;
+  --primary600: #df3568;
+  --secondaryBase: #186aff;
+  --error500: #ef4444;
+  --warning500: #f59e0b;
+}
+
+.success-toast {
+  background-color: var(--color-success-100) !important;
+  color: var(--color-success-600) !important;
+  font-weight: 500;
+}
+
+.error-toast {
+  color: var(--color-error) !important;
+  font-weight: 500;
+}
